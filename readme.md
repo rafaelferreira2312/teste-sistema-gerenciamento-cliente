@@ -22,20 +22,17 @@ cd teste-sistema-gerenciamento-cliente
 * Navegue até o diretório backend:
 
 ```
-cd backend
-```
-
-* Instale as dependências do backend:
-
-```
 npm install
 ```
-* Configure as variáveis de ambiente no arquivo .env, se necessário.
 
 * Inicie o servidor do backend:
 
 ```
-npm start
+node index.js
+```
+## Acessar o servidor de backend
+```
+Acesse o sistema no navegador em http://localhost:4000.
 ```
 
 ## 4. Configuração do Frontend
@@ -57,7 +54,7 @@ npm install
 npm start
 ```
 
-## 5. Acessando o Sistema
+## 5. Acessando o Sistema Frontend
 * Acesse o sistema no navegador em http://localhost:3000.
 
 # Funcionalidades
